@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [smokeTest]" parallel="tests">
+  <parameter name="myBrowser" value="chrome"/>
+  <test name="parallelTest2(failed)" parallel="tests">
+    <parameter name="myBrowser" value="chrome"/>
+    <classes>
+      <class name="myTests.TestSuite1">
+        <methods>
+          <include name="thirdTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="SecondTest"/>
+          <include name="afterMethod"/>
+          <include name="firstTest"/>
+          <include name="fourthTest"/>
+        </methods>
+      </class> <!-- myTests.TestSuite1 -->
+    </classes>
+  </test> <!-- parallelTest2(failed) -->
+</suite> <!-- Failed suite [smokeTest] -->

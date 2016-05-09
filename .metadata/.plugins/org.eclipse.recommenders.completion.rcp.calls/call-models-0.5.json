@@ -1,0 +1,18 @@
+{
+  "C:\\Jars\\selenium-2.53.0\\selenium-java-2.53.0.jar": {
+    "location": "C:\\Jars\\selenium-2.53.0\\selenium-java-2.53.0.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Jars\\selenium-2.53.0\\selenium-java-2.53.0.jar\u0027. Neither fingerprint \u0027fe4d41506ab85379dc816eacc25ead4c561739a4\u0027 nor symbolic name \u0027selenium-java-2.53.0\u0027 are known."
+  },
+  "C:\\Program Files\\Java\\jre1.8.0_77\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_77\\lib\\rt.jar",
+    "status": "RESOLVED",
+    "error": "No class path info available for \u0027C:\\Program Files\\Java\\jre1.8.0_77\\lib\\rt.jar\u0027. Skipped."
+  },
+  "C:\\Jars\\selenium-2.53.0\\libs\\jna-4.1.0.jar": {
+    "location": "C:\\Jars\\selenium-2.53.0\\libs\\jna-4.1.0.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Jars\\selenium-2.53.0\\libs\\jna-4.1.0.jar\u0027. Neither fingerprint \u00271c12d070e602efd8021891cdd7fd18bc129372d4\u0027 nor symbolic name \u0027com.sun.jna\u0027 are known."
+  }
+}

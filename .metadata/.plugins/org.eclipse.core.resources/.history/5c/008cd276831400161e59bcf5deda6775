@@ -1,0 +1,24 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class WebDriverFactory {
+	
+	WebDriver driver;
+	
+	public WebDriver create(String browser){
+		
+		switch(browser){
+		
+		case "firefox":
+			driver = new FirefoxDriver();
+			break;
+			
+		case "chrome":
+			driver = new ChromeDriver();
+			break;
+	}
+		return driver;
+	}
+}

@@ -1,0 +1,14 @@
+import org.openqa.selenium.WebDriver;
+
+
+public class WebDriverFactory {
+	
+	WebDriver driver;
+	
+	public Webdriver create(driver){
+		
+		
+		return driver
+	}
+
+}

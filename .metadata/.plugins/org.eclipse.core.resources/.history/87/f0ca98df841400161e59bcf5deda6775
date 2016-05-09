@@ -1,0 +1,30 @@
+package myPackage;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+
+public class TestSuite1 extends BaseTestCase{
+	
+
+	@Test
+	public void firstTest(){
+		getDriver().get("http://www.w3schools.com/");
+		Thread.sleep(5000);
+		System.out.println("First Test case completed");
+	}
+	
+	@Test
+	public void SecondTest(){
+		System.out.println("Second Test case completed");
+	}
+	
+	@Test
+	public void thirdTest(){
+		System.out.println("Third Test case completed");
+	}
+	
+	@Test
+	public void fourthTest(){
+		System.out.println("Fourth Test case completed");
+	}
+}

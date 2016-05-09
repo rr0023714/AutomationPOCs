@@ -1,0 +1,48 @@
+package myPackage;
+
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.remote.Augmenter;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.TakesScreenshot;
+
+
+
+public class BaseTestCase {
+	
+	ThreadLocal<RemoteWebDriver> dr = new ThreadLocal<RemoteWebDriver>();
+	RemoteWebDriver driver;
+	// Initializes the driver with browser
+	@BeforeMethod
+	@Parameters("myBrowser")
+	public void beforeMethod(String myBrowser) throws MalformedURLException{
+		
+		if(myBrowser.equalsIgnoreCase("firefox")){
+			DesiredCapabilities capability = new DesiredCapabilities().firefox();
+			capability.setBrowserName("firefox");
+			capability.setPlatform(Platform.WINDOWS);
+			driver= new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capability);
+			
+			
+			   // RemoteWebDriver does not implement the TakesScreenshot class
+	        // if the driver does have the Capabilities to take a screenshot
+	        // then Augmenter will add the TakesScreenshot methods to the instance
+	     
+		}
+		
+	}
+
+	
+	@AfterMethod
+	public void afterMethod(){
+		
+	}
+}

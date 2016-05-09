@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "smokeTest">
+	<test name="parallelTest">
+	<classes>
+		<class name= "default pacakage.TestSuite1" />
+	</classes>
+	
+	</test>>
+</suite>>

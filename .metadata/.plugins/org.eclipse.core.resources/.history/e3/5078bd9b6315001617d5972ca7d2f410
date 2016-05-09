@@ -1,0 +1,36 @@
+package myPackage;
+
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.openqa.selenium.Platform;
+
+import com.sun.jna.Platform;
+
+public class BaseTestCase {
+	
+	ThreadLocal<WebDriver> dr = new ThreadLocal<WebDriver>();
+	RemoteWebDriver driver;
+	// Initializes the driver with browser
+	@BeforeMethod
+	@Parameters("myBrowser")
+	public void beforeMethod(String myBrowser){
+		
+		if(myBrowser.equalsIgnoreCase("firefox")){
+			DesiredCapabilities capabilities = new DesiredCapabilities().firefox();
+			capabilities.setBrowserName("firefox");
+			capabilities.setPlatform(Platform.WINDOWS);
+			= new RemoteWebDriver()
+		}
+		
+	}
+
+	
+	@AfterMethod
+	public void afterMethod(){
+		
+	}
+}

@@ -1,0 +1,15 @@
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeMethod;
+
+
+public class BaseTestCase {
+
+	public static ThreadLocal<WebDriver> dr = new ThreadLocal<WebDriver>();
+	
+	@BeforeMethod
+	public void beforemethod(){
+		WebDriver driver = new WebDriverFactory().create("firefox");
+		
+	}
+	
+}

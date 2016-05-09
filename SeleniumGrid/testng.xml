@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SmokeSuite" parallel="tests" thread-count="2">
+	<test name="ParallelTest 1">
+		<parameter name="myBrowser" value="firefox" />
+		<classes>
+			<class name="myPackage.TestParallel" />
+		</classes>
+	</test>
+
+	<test name="ParallelTest 2">
+
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="myPackage.TestParallel" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,27 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class WebDriverFactory {
+	
+	//WebDriver driver;
+	
+	public WebDriver create(String browser){
+		
+		switch(browser){
+		
+		case 'firefox':
+			WebDriver driver = new FirefoxDriver();
+			break;
+			
+		case 'chrome':
+			WebDriver driver = new ChromeDriver();
+			break;
+		
+		detault :
+			System.out.println("Invalid selection");
+		
+		return driver
+	}
+	}
+}

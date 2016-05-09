@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smokeTest]">
+  <test name="parallelTest(failed)" parallel="methods">
+    <classes>
+      <class name="myPackage.TestSuite1">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="thirdTest"/>
+          <include name="SecondTest"/>
+          <include name="firstTest"/>
+          <include name="fourthTest"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- myPackage.TestSuite1 -->
+    </classes>
+  </test> <!-- parallelTest(failed) -->
+</suite> <!-- Failed suite [smokeTest] -->

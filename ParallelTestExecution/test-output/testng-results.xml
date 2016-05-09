@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="smokeTest" duration-ms="53326" started-at="2016-05-08T20:53:59Z" finished-at="2016-05-08T20:54:53Z">
+    <groups>
+    </groups>
+    <test name="parallelTest" duration-ms="53326" started-at="2016-05-08T20:53:59Z" finished-at="2016-05-08T20:54:53Z">
+      <class name="myTests.TestSuite1">
+        <test-method status="PASS" signature="beforemethod(java.lang.String)[pri:0, instance:myTests.TestSuite1@256216b3]" name="beforemethod" is-config="true" duration-ms="6539" started-at="2016-05-08T13:53:59Z" finished-at="2016-05-08T13:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String)[pri:0, instance:myTests.TestSuite1@256216b3]" name="beforemethod" is-config="true" duration-ms="13934" started-at="2016-05-08T13:53:59Z" finished-at="2016-05-08T13:54:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:myTests.TestSuite1@256216b3]" name="SecondTest" duration-ms="18310" started-at="2016-05-08T13:54:06Z" finished-at="2016-05-08T13:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:myTests.TestSuite1@256216b3]" name="firstTest" duration-ms="18502" started-at="2016-05-08T13:54:13Z" finished-at="2016-05-08T13:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:myTests.TestSuite1@256216b3]" name="aftermethod" is-config="true" duration-ms="1756" started-at="2016-05-08T13:54:24Z" finished-at="2016-05-08T13:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String)[pri:0, instance:myTests.TestSuite1@256216b3]" name="beforemethod" is-config="true" duration-ms="7432" started-at="2016-05-08T13:54:26Z" finished-at="2016-05-08T13:54:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:myTests.TestSuite1@256216b3]" name="aftermethod" is-config="true" duration-ms="632" started-at="2016-05-08T13:54:32Z" finished-at="2016-05-08T13:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String)[pri:0, instance:myTests.TestSuite1@256216b3]" name="beforemethod" is-config="true" duration-ms="7576" started-at="2016-05-08T13:54:32Z" finished-at="2016-05-08T13:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="fourthTest()[pri:0, instance:myTests.TestSuite1@256216b3]" name="fourthTest" duration-ms="16976" started-at="2016-05-08T13:54:33Z" finished-at="2016-05-08T13:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+        <test-method status="PASS" signature="thirdTest()[pri:0, instance:myTests.TestSuite1@256216b3]" name="thirdTest" duration-ms="12044" started-at="2016-05-08T13:54:40Z" finished-at="2016-05-08T13:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:myTests.TestSuite1@256216b3]" name="aftermethod" is-config="true" duration-ms="995" started-at="2016-05-08T13:54:50Z" finished-at="2016-05-08T13:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:myTests.TestSuite1@256216b3]" name="aftermethod" is-config="true" duration-ms="611" started-at="2016-05-08T13:54:52Z" finished-at="2016-05-08T13:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- myTests.TestSuite1 -->
+    </test> <!-- parallelTest -->
+  </suite> <!-- smokeTest -->
+</testng-results>
